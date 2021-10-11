@@ -47,7 +47,20 @@
             </Canvas>
         </GroupBox>
 
-
+        <Menu x:Name="mnuMain" HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="131">
+            <MenuItem Header="File">
+                <MenuItem Header="Exit"/>
+            </MenuItem>
+            <MenuItem Header="_Doughnuts">
+                <MenuItem Header="Make">
+                    <MenuItem Header="Raised">
+                        <MenuItem x:Name="glazedMenuItem" Header="Glazed"/>
+                        <MenuItem x:Name="sugarMenuItem" Header="Sugar"/>
+                    </MenuItem>
+                    <MenuItem Header="Filled"/>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
 
 
     </Grid>
